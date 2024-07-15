@@ -1,0 +1,34 @@
+/**
+ * Custom `@font-face` rules
+ *
+ * These will be added immediately before Tailwind’s `base` layer.
+ */
+
+ @font-face {
+    font-family: "NanumMyeongjo";
+    src: url("fonts/NanumMyeongjo.woff2") format("woff2"),
+        url("fonts/NanumMyeongjo.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "AzoSans";
+    src: url("fonts/AzoSans-Light.woff2") format("woff2"),
+        url("fonts/AzoSans-Light.woff") format("woff"),
+        url("fonts/AzoSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FuturaNowHeadline";
+    src: url("fonts/Futura Now Headline.woff2") format("woff2"),
+        url("fonts/Futura Now Headline.woff") format("woff"),
+        url("fonts/Futura Now Headline.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
